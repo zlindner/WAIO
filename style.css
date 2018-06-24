@@ -1,0 +1,34 @@
+a {
+    color: #039be5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #006db3;
+}
+
+.content {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.courses {
+    margin: 0 auto;
+}
+
+.table {
+    margin-top: 25px;
+}
+
+.refresh {
+    float: right;
+}
+
+.closed {
+    color:#e53935;
+}
+
+.closed:hover {
+    color: #ab000d;
+}

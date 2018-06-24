@@ -1,0 +1,585 @@
+{
+    "acct": [
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0101 (2586) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Wed"
+                    ],
+                    "time": "03:30PM - 04:20PM",
+                    "room": "MCKN, Room 230"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 10,
+            "capacity": 30
+        },
+        {
+            "status": "Closed",
+            "name": "ACCT*1220*0102 (2587) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Mon"
+                    ],
+                    "time": "10:30AM - 11:20AM",
+                    "room": "MCKN, Room 231"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 0,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0103 (2588) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Mon"
+                    ],
+                    "time": "12:30PM - 01:20PM",
+                    "room": "MCKN, Room 228"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 6,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0104 (2589) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Wed"
+                    ],
+                    "time": "09:30AM - 10:20AM",
+                    "room": "MCKN, Room 230"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 13,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0105 (2590) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Wed"
+                    ],
+                    "time": "10:30AM - 11:20AM",
+                    "room": "MCKN, Room 231"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 14,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0106 (2591) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Mon"
+                    ],
+                    "time": "03:30PM - 04:20PM",
+                    "room": "MCKN, Room 232"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 25,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0107 (2592) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Thur"
+                    ],
+                    "time": "04:30PM - 05:20PM",
+                    "room": "MCKN, Room 225"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 25,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0108 (2593) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Mon"
+                    ],
+                    "time": "09:30AM - 10:20AM",
+                    "room": "MCKN, Room 230"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 27,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0109 (2594) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Thur"
+                    ],
+                    "time": "11:30AM - 12:20PM",
+                    "room": "MCKN, Room 227"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 10,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*0110 (2595) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "11:30AM - 12:20PM",
+                    "room": "MCKN, Room 225"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 8,
+            "capacity": 30
+        },
+        {
+            "status": "Closed",
+            "name": "ACCT*1220*0111 (2596) Intro Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 10:20AM",
+                    "room": "ROZH, Room 104"
+                },
+                {
+                    "type": "SEM",
+                    "days": [
+                        "Tues"
+                    ],
+                    "time": "01:30PM - 02:20PM",
+                    "room": "MCKN, Room 230"
+                }
+            ],
+            "professor": "P. Lassou",
+            "available": 0,
+            "capacity": 30
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*1220*DE01 (2597) Intro Financial Accounting",
+            "sessions": [],
+            "professor": "TBA TBA",
+            "available": 113,
+            "capacity": 120
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*2230*01 (2598) Management Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Tues",
+                        "Thur"
+                    ],
+                    "time": "02:30PM - 03:50PM",
+                    "room": "ROZH, Room 104"
+                }
+            ],
+            "professor": "E. Currie",
+            "available": 442,
+            "capacity": 550
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*2230*DE01 (2599) Management Accounting",
+            "sessions": [],
+            "professor": "TBA TBA",
+            "available": 100,
+            "capacity": 120
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*3280*01 (2600) Auditing I",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Mon",
+                        "Wed",
+                        "Fri"
+                    ],
+                    "time": "08:30AM - 09:20AM",
+                    "room": "MACS, Room 121"
+                }
+            ],
+            "professor": "S. Scott",
+            "available": 15,
+            "capacity": 48
+        },
+        {
+            "status": "Closed",
+            "name": "ACCT*3280*02 (2601) Auditing I",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Mon",
+                        "Wed",
+                        "Fri"
+                    ],
+                    "time": "10:30AM - 11:20AM",
+                    "room": "MCKN, Room 225"
+                }
+            ],
+            "professor": "S. Scott",
+            "available": 0,
+            "capacity": 40
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*3280*03 (2602) Auditing I",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Wed"
+                    ],
+                    "time": "07:00PM - 09:50PM",
+                    "room": "MCLN, Room 107"
+                }
+            ],
+            "professor": "TBA TBA",
+            "available": 14,
+            "capacity": 48
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*3330*01 (2603) Intermed Financial Account I",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Tues",
+                        "Thur"
+                    ],
+                    "time": "10:00AM - 11:20AM",
+                    "room": "MINS, Room 300"
+                }
+            ],
+            "professor": "S. Wick",
+            "available": 40,
+            "capacity": 60
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*3330*02 (2604) Intermed Financial Account I",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Tues",
+                        "Thur"
+                    ],
+                    "time": "02:30PM - 03:50PM",
+                    "room": "MACS, Room 209"
+                }
+            ],
+            "professor": "S. Wick",
+            "available": 41,
+            "capacity": 60
+        },
+        {
+            "status": "Closed",
+            "name": "ACCT*3340*01 (2605) Intermed Financial Account II",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Mon",
+                        "Wed",
+                        "Fri"
+                    ],
+                    "time": "01:30PM - 02:20PM",
+                    "room": "RICH, Room 2529"
+                }
+            ],
+            "professor": "S. Scott",
+            "available": 0,
+            "capacity": 60
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*3340*02 (2606) Intermed Financial Account II",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Mon",
+                        "Wed",
+                        "Fri"
+                    ],
+                    "time": "03:30PM - 04:20PM",
+                    "room": "THRN, Room 1307"
+                }
+            ],
+            "professor": "S. Scott",
+            "available": 6,
+            "capacity": 60
+        },
+        {
+            "status": "Closed",
+            "name": "ACCT*3350*01 (2607) Taxation",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Tues",
+                        "Thur"
+                    ],
+                    "time": "01:00PM - 02:20PM",
+                    "room": "MACS, Room 209"
+                }
+            ],
+            "professor": "S. Dhaliwal",
+            "available": 0,
+            "capacity": 60
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*3350*02 (2608) Taxation",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Tues",
+                        "Thur"
+                    ],
+                    "time": "04:00PM - 05:20PM",
+                    "room": "MACS, Room 209"
+                }
+            ],
+            "professor": "S. Dhaliwal",
+            "available": 2,
+            "capacity": 60
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*4220*01 (2609) Advanced Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Mon",
+                        "Wed"
+                    ],
+                    "time": "10:00AM - 11:20AM",
+                    "room": "MINS, Room 300"
+                }
+            ],
+            "professor": "R. Baker",
+            "available": 39,
+            "capacity": 95
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*4220*02 (2610) Advanced Financial Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Mon",
+                        "Wed"
+                    ],
+                    "time": "02:30PM - 03:50PM",
+                    "room": "MINS, Room 300"
+                }
+            ],
+            "professor": "R. Baker",
+            "available": 17,
+            "capacity": 95
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*4230*01 (2611) Advanced Management Accounting",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Mon",
+                        "Wed"
+                    ],
+                    "time": "01:00PM - 02:20PM",
+                    "room": "MINS, Room 300"
+                }
+            ],
+            "professor": "K. Jagoda",
+            "available": 27,
+            "capacity": 60
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*4270*01 (2612) Auditing II",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Tues",
+                        "Thur"
+                    ],
+                    "time": "08:30AM - 09:50AM",
+                    "room": "MAC, Room 149"
+                }
+            ],
+            "professor": "C. Zavitz",
+            "available": 19,
+            "capacity": 70
+        },
+        {
+            "status": "Closed",
+            "name": "ACCT*4270*02 (2613) Auditing II",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Tues",
+                        "Thur"
+                    ],
+                    "time": "11:30AM - 12:50PM",
+                    "room": "MAC, Room 149"
+                }
+            ],
+            "professor": "C. Zavitz",
+            "available": 0,
+            "capacity": 60
+        },
+        {
+            "status": "Open",
+            "name": "ACCT*4350*01 (2614) Income Taxation II",
+            "sessions": [
+                {
+                    "type": "LEC",
+                    "days": [
+                        "Wed"
+                    ],
+                    "time": "07:00PM - 09:50PM",
+                    "room": "MCKN, Room 117"
+                }
+            ],
+            "professor": "S. Dhaliwal",
+            "available": 14,
+            "capacity": 100
+        }
+    ]
+}

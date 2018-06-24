@@ -1,0 +1,16 @@
+{
+  "name": "waio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "waio.js",
+  "scripts": {
+    "start": "nodemon waio.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "nodemon": "^1.17.5"
+  }
+}
