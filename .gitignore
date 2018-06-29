@@ -1,2 +1,5 @@
 .vscode/
 node_modules/
+
+assets/courses.json
+courses.json
