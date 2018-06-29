@@ -1,8 +1,8 @@
 $(document).ready(function () {
     get_json();
 
-    $('#refresh').click(function () {
-        console.log('refresh');
+    $('#update').click(function () {
+        console.log('update');
     });
 });
 
@@ -28,6 +28,8 @@ get_json().done(function (json) {
     get_subjects(json);
 
     $('#subject').on('change', function () {
+        $('#courses > tbody').empty();
+
         get_sections(json, this.value);
     });
 });

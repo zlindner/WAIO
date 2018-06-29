@@ -16,13 +16,17 @@ browser.find_element_by_id('CURR_PWD').submit()
 browser.get('https://webadvisor.uoguelph.ca/WebAdvisor/WebAdvisor?TOKENIDX=5343575873&CONSTITUENCY=WBST&type=P&pid=ST-WESTS04A')
 
 courses = [x for x in browser.find_element_by_id('LIST_VAR1_1').find_elements_by_tag_name('option')]
+course_names = []
+
+for i in range(1, len(courses)):
+    course_names.append(courses[i].get_attribute('text'))
 
 subjects = {}
 
-for element in courses[1:]:
-    course_name = element.get_attribute('text')
+for i in range(len(course_names)):
+    course_name = course_names[i]
 
-    # select term    
+     # select term    
     Select(browser.find_element_by_id('VAR1')).select_by_visible_text('F18 - Fall 2018')
 
     # select course
@@ -30,6 +34,13 @@ for element in courses[1:]:
 
     # get results
     browser.find_element_by_name('SUBMIT2').click()
+
+    # checks if browser wasn't redirected due to no classes for the given subject
+    try:  
+        gryph = browser.find_element_by_id('chooseq')  
+        continue
+    except:
+        pass
 
     # list of all sections for a given subject
     sections = []
@@ -61,13 +72,17 @@ for element in courses[1:]:
         section['professor'] = cells[8].text
 
         availability = cells[9].text
-        section['available'] = int(availability.split(' / ')[0])
-        section['capacity'] = int(availability.split(' / ')[1])
+
+        if availability:
+            section['available'] = int(availability.split(' / ')[0])
+            section['capacity'] = int(availability.split(' / ')[1])
 
         # append the section to the list of sections
         sections.append(section)
 
     subjects[course_name.split(' -')[0].lower()] = sections
 
-    with open('courses.json', 'w') as outfile:
+    browser.back()
+
+with open('courses.json', 'w') as outfile:
         json.dump(subjects, outfile)
